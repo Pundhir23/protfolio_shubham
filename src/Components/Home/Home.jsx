@@ -3,7 +3,8 @@ import avatarImg from "../../assets/laptopimage.png";
 import TextChange from "../TextChange";
 import { Import } from "lucide-react";
 //import Resume from "../../assets/Shubham_Pundhir_Resume.pdf";
-//import Foo from "../../public/assets/Shubham_Pundhir_Resume.pdf"; // Ensure this path is correct
+//import Resume from '../assets/Shubham_Pundhir_Resume.pdf';
+
 
 
 
@@ -17,13 +18,11 @@ const Home = () => {
         <p className="text-sm md:text-2xl tracking-tight mt-6">
           Aspiring Software Developer skilled in front-end and Python, passionate about building responsive web apps and real-world solutions to drive innovation and impact.
         </p>
-        <a
-          href="/Shubham_Pundhir_Resume.pdf"
-          download="Shubham_Pundhir_Resume.pdf" // Optional: forces filename
-          className="inline-block mt-5 md:mt-10 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]"
-        >
+        <button className="mt-6 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors duration-300">
+        <a href="/Shubham_Pundhir.pdf" download={true}>
           Download CV
         </a>
+        </button>
 
       </div>
 
