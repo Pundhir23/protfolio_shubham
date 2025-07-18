@@ -48,7 +48,7 @@ const About = () => {
                   Backend Developer
                 </h2>
                 <p className="text-sm md:text-md text-[#649ba0] leading-tight mt-3">
-                  Trained in Java and Python for backend logic and data handling.
+                  Trained in Java and Python for backend logic and data handling. 
                   Built a QR Code Encoder/Decoder using Python, OpenCV, and PIL.
                   Understanding of API integration, server-side logic, and full-stack principles.
                 </p>
